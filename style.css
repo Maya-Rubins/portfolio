@@ -48,7 +48,8 @@ section#eyes {position: static;
     padding: 0 2px;
 }
 
-.column1 {display: flexbox;
+.column1 {display: -ms-flexbox;
+    display: flex;
     background-color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -78,9 +79,9 @@ section#eyes {position: static;
 
 @media screen and (max-width: 600px){
     .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
     }
 }
 
