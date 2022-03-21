@@ -202,7 +202,7 @@ p {position: center;
     padding-right: 70px;
     color: black;
     font-family: my_font_3;
-    font-size: 2em;
+    font-size: 2rem;
     line-height: 4em;}
 
 /* style for a tags inside of nav */
