@@ -15,9 +15,9 @@ nav {overflow: hidden;
     background-color: #2f3333;
     display: block;}
 
-aside#right {position: sticky;
+aside#right {position: static;
         box-sizing: border-box;
-        height: 800px;
+        height: 100%;
         color:ghostwhite;
         background-color: #93AA9D;
         padding-left: 0px;
@@ -26,9 +26,9 @@ aside#right {position: sticky;
         font-size: 200px;
         float: right;}
 
-aside#left {position: static;
+aside#left {position: sticky;
         box-sizing: border-box;
-        height: 800px;
+        height: 100%;
         width: 50%;
         float: left;
         background-image:url(IMG_2944.jpg);
@@ -52,7 +52,7 @@ section#eyes {position: static;
 }
 
 .container > div {
-    display: block;
+    display: grid;
     flex-direction: column;
     
 }
@@ -101,7 +101,7 @@ small {color: white;
        font-size: 14px;
         font-family: arial;}
 
-h1 {position: absolute;
+h1 {position: flex;
     box-sizing: border-box;
     padding-left: 50%;
     background-color: transparent;
