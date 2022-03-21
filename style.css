@@ -47,7 +47,7 @@ section#eyes {position: static;
 }
 
 .container > div {
-    display: grid;
+    display: block;
     flex-direction: row;
     height: 100%;
 }
