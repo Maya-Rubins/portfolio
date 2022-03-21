@@ -18,12 +18,8 @@ nav {overflow: hidden;
 aside#right {position: static;
         box-sizing: border-box;
         height: 100%;
-        color:ghostwhite;
         background-color: #93AA9D;
-        padding-left: 0px;
-        padding-top: 2px;
         width: 50%;
-        font-size: 200px;
         float: right;}
 
 aside#left {position: sticky;
@@ -52,7 +48,7 @@ section#eyes {position: static;
 }
 
 .container > div {
-    display: grid;
+    display: block;
     flex-direction: column;
     
 }
