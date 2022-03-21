@@ -5,7 +5,7 @@ body {background-color: #2f3333;
 div#main {position: static;
     box-sizing: border-box;
     background-color: #2f3333;
-    height: 1000px;}
+    height: 100%;}
 
 /* boxes that go inside of main */
 
