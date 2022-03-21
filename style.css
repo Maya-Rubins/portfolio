@@ -43,7 +43,7 @@ section#eyes {position: static;
     width: 100%;}
 
 .container {
-    display: block;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, minmax(2px, auto));
     justify-content: flex-start;
