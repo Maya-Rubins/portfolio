@@ -56,6 +56,7 @@ section#eyes {position: static;
     margin-top: 2px;
     vertical-align: middle;
     width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 1000px){
