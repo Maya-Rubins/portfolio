@@ -49,6 +49,7 @@ section#eyes {position: static;
 }
 
 .column1{
+    background-color: white;
     -ms-flex: 70%;
     flex: 70%;
     max-width: 70%;
