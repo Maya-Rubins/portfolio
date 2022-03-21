@@ -194,8 +194,8 @@ padding-left: 70px;
 padding-right: 70px;
 color: black;
 font-family: my_font_3;
-font-size: 4vw;
-line-height: 6vw;}
+font-size: 4%;
+line-height: 6%;}
 
 p {position: center;
 padding-top: 50px;
@@ -203,8 +203,8 @@ padding-left: 70px;
 padding-right: 70px;
 color: black;
 font-family: my_font_3;
-font-size: 2vw;
-line-height: 4vw;}
+font-size: 2%;
+line-height: 4%;}
 
 /* style for a tags inside of nav */
 nav a {float: left;
