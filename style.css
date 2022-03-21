@@ -193,8 +193,8 @@ p1 {
     padding-right: 70px;
     color: black;
     font-family: my_font_3;
-    font-size: 30px;
-    line-height: 22px;}
+    font-size: 4vw;
+    line-height: 6vw;}
 
 p {position: center;
     padding-top: 50px;
@@ -202,8 +202,8 @@ p {position: center;
     padding-right: 70px;
     color: black;
     font-family: my_font_3;
-    font-size: 16px;
-    line-height: 22px;}
+    font-size: 2vw;
+    line-height: 4vw;}
 
 /* style for a tags inside of nav */
 nav a {float: left;
