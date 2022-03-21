@@ -51,7 +51,7 @@ section#eyes {position: static;
 }
 
 .container > div {
-display: block;
+display: grid;
 flex-direction: column;
 
 }
