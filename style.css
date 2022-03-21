@@ -17,18 +17,15 @@ display: block;}
 
 aside#right {position: sticky;
     box-sizing: border-box;
-    height: 800px;
-    color:ghostwhite;
+    height: 100%;
     background-color: #93AA9D;
-    padding-left: 0px;
-    padding-top: 2px;
     width: 50%;
     font-size: 200px;
     float: right;}
 
 aside#left {position: static;
     box-sizing: border-box;
-    height: 800px;
+    height: 100%;
     width: 50%;
     float: left;
     background-image:url(IMG_2944.jpg);
