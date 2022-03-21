@@ -49,7 +49,6 @@ section#eyes {position: static;
 }
 
 .column1{
-    background-color: white;
     -ms-flex: 70%;
     flex: 70%;
     max-width: 70%;
@@ -69,6 +68,15 @@ section#eyes {position: static;
         max-width: 100%;
     }
 }
+
+#article {display: grid;
+    height: auto;
+    box-sizing: border-box;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: auto;}
+
 
 footer {position: static;
     box-sizing: border-box;
