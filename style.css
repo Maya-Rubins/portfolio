@@ -47,7 +47,7 @@ section#eyes {position: static;
     flex-wrap: wrap;
 }
 
-.column1 {display: -ms-flexbox;
+.column {display: -ms-flexbox;
     display: flex;
     background-color: white;
     padding-left: 20px;
@@ -154,8 +154,6 @@ line-height: 22px;}
 
 p {position: center;
 padding-top: 50px;
-padding-left: 70px;
-padding-right: 70px;
 color: black;
 font-family: my_font_3;
 font-size: 16px;
