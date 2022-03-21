@@ -47,7 +47,7 @@ section#eyes {position: static;
     flex-wrap: wrap;
 }
 
-.column {display: -ms-flexbox;
+.column1 {display: -ms-flexbox;
     display: flex;
     background-color: white;
     padding-left: 20px;
