@@ -80,7 +80,7 @@ section#eyes {position: static;
     --row-height: 1000px;
     
     box-sizing: border-box;
-    display: grid;
+    display: block;
     grid-template-columns: (var(--num-cols), 1fr);
     grid-auto-rows: var(--row-height);
 }
