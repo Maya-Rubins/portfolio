@@ -47,11 +47,6 @@ section#eyes {position: static;
         grid-template-columns: repeat(3, 1fr);
 }
 
-.container > div {
-    flex-direction: row;
-    height: 100%;
-}
-
 .container > div:nth-of-type(1){
     grid-column: 1 / 3;
     grid-row: 1 / 5;   
@@ -75,36 +70,11 @@ section#eyes {position: static;
 }
 
 .image {
-    
-    --num-cols: 3;
-    --row-height: 1000px;
-    
-    box-sizing: border-box;
     display: grid;
-    grid-template-columns: (var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
-}
-
-.image > img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-@media screen and (max-width: 2000px){
-    .image {
-        --row-height: auto;
-    }
 }
 
 @media screen and (max-width: 2000px){
     .article {
-        --row-height: auto;
-    }
-}
-
-@media screen and (min-width: 250px){
-    .image {
         --row-height: auto;
     }
 }
