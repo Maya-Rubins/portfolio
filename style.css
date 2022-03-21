@@ -69,7 +69,7 @@ section#eyes {position: static;
     }
 }
 
-#article {display: grid;
+#article {display: flexbox;
     height: auto;
     box-sizing: border-box;
     background-color: white;
