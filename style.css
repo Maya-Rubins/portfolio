@@ -66,6 +66,7 @@ section#eyes {position: static;
     margin-top: 5px;
     vertical-align: middle;
     width: 100%;
+    float: right;
 }
 
 .column2{
