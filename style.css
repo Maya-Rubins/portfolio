@@ -45,10 +45,10 @@ section#eyes {position: static;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    padding: 0 2px;
 }
 
-.column1 {display: -ms-flexbox;
-    display: flex;
+.column1 {display: flexbox;
     background-color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -59,26 +59,27 @@ section#eyes {position: static;
     -ms-flex: 70%;
     flex: 70%;
     max-width: 70%;
+    padding: 0 2px;
 }
 
 .column img {
     margin-top: 5px;
     vertical-align: middle;
     width: 100%;
-    float: right;
 }
 
 .column2{
     -ms-flex: 30%;
     flex: 30%;
     max-width: 30%;
+    padding: 0 2px;
 }
 
 @media screen and (max-width: 600px){
     .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
 }
 
