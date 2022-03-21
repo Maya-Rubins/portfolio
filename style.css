@@ -20,7 +20,6 @@ aside#right {position: sticky;
     height: 100%;
     background-color: #93AA9D;
     width: 50%;
-    font-size: 200px;
     float: right;}
 
 aside#left {position: static;
@@ -81,12 +80,9 @@ section#eyes {position: static;
     --row-height: 1000px;
     
     box-sizing: border-box;
-    padding-top: var(--gap);
-    padding-bottom: var(--gap);
     display: grid;
     grid-template-columns: (var(--num-cols), 1fr);
     grid-auto-rows: var(--row-height);
-    grid-gap: var(--gap);
 }
 
 .image > img {
