@@ -16,18 +16,15 @@ display: block;}
 
 aside#right {position: sticky;
     box-sizing: border-box;
-    height: 800px;
-    color:ghostwhite;
+    height: 100%;
     background-color: #93AA9D;
-    padding-left: 0px;
-    padding-top: 2px;
     width: 50%;
     font-size: 200px;
     float: right;}
 
 aside#left {position: static;
     box-sizing: border-box;
-    height: 800px;
+    height: 100%;
     width: 50%;
     float: left;
     background-image:url(IMG_2944.jpg);
@@ -197,8 +194,8 @@ padding-left: 70px;
 padding-right: 70px;
 color: black;
 font-family: my_font_3;
-font-size: 30px;
-line-height: 22px;}
+font-size: 4vw;
+line-height: 6vw;}
 
 p {position: center;
 padding-top: 50px;
@@ -206,8 +203,8 @@ padding-left: 70px;
 padding-right: 70px;
 color: black;
 font-family: my_font_3;
-font-size: 16px;
-line-height: 22px;}
+font-size: 2vw;
+line-height: 4vw;}
 
 /* style for a tags inside of nav */
 nav a {float: left;
