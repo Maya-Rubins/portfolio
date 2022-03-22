@@ -37,7 +37,7 @@ body {
     height: 30px;
 }
 
-@media all and (max-width: 865px){
+@media all and (max-width: 900px){
     .navbar {
         flex-direction: column;
         position: relative;
