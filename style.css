@@ -13,6 +13,8 @@ body {
 
 .nav-list {
     list-style-type: none;
+    padding-inline-start: 0px;
+    width: 100%;
 }
 
 .nav-list .list-item {
@@ -55,6 +57,7 @@ body {
         text-align: center;
         padding-top: 10px;
         display: none;
+        padding-inline-start: 0px;
     }
     .nav-list .list-item {
         display: block;
