@@ -12,6 +12,11 @@
         function showAlert(){
         alert("Welcome to Maya's profile page!");
         }
+        const toggleButton = document.getElementById('toggle-Button');
+        const naviList = document.getElementById('navi-list');
+        toggleButton.addEventListener('click', () => {
+            naviList.classList.toggle('active');
+        })
         </script>
         <style>
             @font-face {font-family: my_font_1; src: url(computers.otf);}
@@ -21,19 +26,30 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     </head>
     <body>
-        
     <div id="main">
-        
-        <h3 onclick="showAlert()"> Maya Rubins </h3>
-        <nav>
-            
-            <a href="contact.html"> Contact Me </a>
-            
-            <a href="resume.html"> Resume </a>
-            
-            <a href="about.html"> About Me </a>
-            
-            <a href="index.html"> Home </a>
+        <nav class="navbar">
+            <div>
+                <h3 onclick="showAlert()"> Maya Rubins </h3>
+            </div>
+           <ul class="nav-list" id="navi-list"> 
+                <li class="list-item">
+                    <a href="contact.html"> Contact Me </a>
+                </li>
+                <li>
+                    <a href="resume.html"> Resume </a>
+                </li>
+                <li>
+                    <a href="about.html"> About Me </a>
+                </li>
+                <li>
+                    <a href="index.html"> Home </a>
+                </li>
+            </ul>
+            <div class="menu" id="toggle-Button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
         </nav>
         
         <aside id="left">

@@ -1,44 +1,96 @@
-body {background-color: #2f3333;
-
+body {
+    background-color: #2f3333;
 }
 
 /* main div to hold everything */
-div#main {position: static;
+div#main {
+    position: static;
     box-sizing: border-box;
     background-color: #2f3333;
-    height: 1000px;}
+    height: 269px;
+}
 
 /* boxes that go inside of main */
 
 
-nav {overflow: hidden;
-width: 100%;
-background-color: #2f3333;
-display: block;}
+.navbar {
+    overflow: hidden;
+    width: 100%;
+    background-color: #2f3333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
 
-aside#right {position: static;
+.nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 12px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.nav-list .list-item {
+    display:block;
+    padding: 12px 18px;
+    border-top: 1px solid white;
+}
+
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color:white;
+    margin-bottom: 4px;
+}
+
+.menu {
+    display: none;
+}
+@media all and (max-width: 865px){
+    .navbar {
+        flex-direction: column;
+    }
+    .menu {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+}
+aside#right {
+    position: static;
     box-sizing: border-box;
-    height: 100%;
+    height: 269px;
     background-color: #93AA9D;
     width: 50%;
-    float: right;}
+    float: right;
+}
 
-aside#left {position: sticky;
+aside#left {
+    position: sticky;
     box-sizing: border-box;
     height: 100%;
     width: 50%;
     float: left;
     background-image:url(IMG_2944.jpg);
     background-size: cover;
-    background-position: center;}
+    background-position: center;
+}
 
-section#eyes {position: static;
+section#eyes {
+    position: static;
     box-sizing: border-box;
     background:  url(eyes.jpg);
     background-position: center;
     background-size: cover;
     height: 10%;
-    width: 100%;}
+    width: 100%;
+}
 
 .row {
     display: -ms-flexbox;
@@ -78,16 +130,19 @@ section#eyes {position: static;
     }
 }
 
-#article {display: flexbox;
+#article {
+    display: flexbox;
     height: auto;
     box-sizing: border-box;
     background-color: white;
     padding-left: 20px;
     padding-right: 20px;
-    overflow: auto;}
+    overflow: auto;
+}
 
 
-footer {position: static;
+footer {
+    position: static;
     box-sizing: border-box;
     /* use clear to make footer got to the next line */
     clear: both;
@@ -95,133 +150,169 @@ footer {position: static;
     height: 30px;
     padding-top: 10px;
     background-color: #2f3333;
-    text-align: center;}
+    text-align: center;
+}
 
-small {color: white;
-   font-size: 14px;
-    font-family: arial;}
+small {
+    color: white;
+    font-size: 14px;
+    font-family: arial;
+}
 
-h1 {position: absolute;
-box-sizing: border-box;
-padding-left: 50%;
-background-color: transparent;
-color:#2f3333;
-opacity: 100%;
-font-family: my_font_1;
-font-size: 150px;}
+h1 {
+    padding-left: 100%;
+    background-color: transparent;
+    color:#2f3333;
+    opacity: 100%;
+    font-family: my_font_1;
+    font-size: 15vw;
+}
 
-h2 {position: absolute;
-padding-left: 30px;
-float: right;
-color:ghostwhite;
-opacity: 0.5;
-font-size: 150px;
-font-family: my_font_1;}
+h2 {
+    position: absolute;
+    padding-left: 2%;
+    float: right;
+    color:ghostwhite;
+    opacity: 0.5;
+    font-size: 15vw;
+    font-family: my_font_1;
+}
 
-h3 {font-family: my_font_1;
-font-size: 30px; 
-float: left;
-padding-left: 30px;
-color: ghostwhite;}
+h3 {
+    font-family: my_font_1;
+    font-size: 30px; 
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: ghostwhite;
+}
 
-h4 {position: absolute;
-font-family: my_font_1;
-font-size: 30px; 
-float: left;
-opacity:0.5;
-padding-left: 30px;
-color: ghostwhite;
-white-space: nowrap;}
+h4 {
+    position: absolute;
+    font-family: my_font_1;
+    font-size: 30px; 
+    float: left;
+    opacity:0.5;
+    padding-left: 30px;
+    color: ghostwhite;
+    white-space: nowrap;
+}
 
-.resumelink {margin-top:15px;
-opacity: 100;
-position: absolute;
-font-family: my_font_1;
-font-size: 30px; 
-float: left;
-padding-left: 30px;
-color: ghostwhite;
-white-space: nowrap;
-font-style: normal;
-text-decoration: underline;}
+.resumelink {
+    margin-top:15px;
+    opacity: 100;
+    position: absolute;
+    font-family: my_font_1;
+    font-size: 30px; 
+    float: left;
+    padding-left: 30px;
+    color: ghostwhite;
+    white-space: nowrap;
+    font-style: normal;
+    text-decoration: underline;
+}
 
-.contacttext {font-size: 25px;}
+.contacttext {
+    font-size: 25px;
+}
 
-.contactlink { margin-top: -250px;
-        padding-left: 150px;}
-p1 {
-position: center;
-padding-left: 70px;
-padding-right: 70px;
-color: black;
-font-family: my_font_3;
-font-size: 4vw;
-line-height: 6vw;}
+.contactlink { 
+    margin-top: -250px;
+    padding-left: 150px;}
+    p1 {position: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: black;
+    font-family: my_font_3;
+    font-size: 4vw;
+    line-height: 6vw;
+}
 
-p {position: center;
-padding-top: 50px;
-padding-left: 70px;
-padding-right: 70px;
-color: black;
-font-family: my_font_3;
-font-size: 2vw;
-line-height: 4vw;}
+p {
+    position: center;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: black;
+    font-family: my_font_3;
+    font-size: 2vw;
+    line-height: 4vw;
+}
 
 /* style for a tags inside of nav */
-nav a {float: left;
-float: right;
-color: ghostwhite;
-text-align: center;
-padding: 12px 18px;
-text-decoration: none;
-font-family: my_font_2;
-font-size: 18px;}
+nav a {
+    color: ghostwhite;
+    text-align: center;
+    text-decoration: none;
+    font-family: my_font_2;
+}
 
-nav a:link {color: ghostwhite;
+nav a:link {
+    color: ghostwhite;
     background-color: #2f3333;
     display: inline-block;
     text-decoration: none;
-    text-align: center;}
+    text-align: center;
+}
 
-nav a:visited {color: ghostwhite;
-    background-color: #2f3333;}
+nav a:visited {
+    color: ghostwhite;
+    background-color: #2f3333;
+}
 
-nav a:hover {background-color: #ddd;
-        color: #2f3333;
-        text-decoration: none;
-        font-style: italic;}
+nav a:hover {
+    background-color: #ddd;
+    color: #2f3333;
+    text-decoration: none;
+    font-style: italic;
+    }
 
-nav a:active {color: #809388;
+nav a:active {
+    color: #809388;
     background-color: ghostwhite;
     transform: translate(4px, 4px);
-    font-style: oblique;}
+    font-style: oblique;
+}
 
 /* style for regular links on the page */
-p a {color: #09e3ad;}
+p a {
+    color: #09e3ad;
+}
 
-p a:hover {color: #2f3333;}
+p a:hover {
+    color: #2f3333;
+}
 
-p a:active {color: #809388;}
+p a:active {
+    color: #809388;
+}
 
-.fa { padding: 20px;
-font-size: 30px;
-width: 50px;
-border-radius: 5%;
-text-align: center;
-text-decoration: none;
-margin: 5px 2px;}
+.fa { 
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 5%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
 
-.fa:hover {opacity: 0.7;}
+.fa:hover {
+    opacity: 0.7;
+}
 
 .fa-facebook {
-background: #809388;
-color: white;}
+    background: #809388;
+    color: white;
+}
 
 .fa-linkedin {
-background: #809388;
-color: white;}
+    background: #809388;
+    color: white;
+}
 
 .fa-instagram {
-background: #809388;
-color: white;}
+    background: #809388;
+    color: white;
+}
 
