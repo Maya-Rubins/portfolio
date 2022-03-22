@@ -71,7 +71,7 @@ body {
         display: block;
     }
 
-    .home {
+    #home {
         border-bottom: 1px solid ghostwhite;
     }
 }
