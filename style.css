@@ -2,17 +2,6 @@ body {
     background-color: #2f3333;
 }
 
-/* main div to hold everything */
-div#main {
-    position: static;
-    box-sizing: border-box;
-    background-color: #2f3333;
-    height: 269px;
-}
-
-/* boxes that go inside of main */
-
-
 .navbar {
     overflow: hidden;
     width: 100%;
