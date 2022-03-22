@@ -61,14 +61,14 @@ section#eyes {position: static;
     width: 30%;
 }
 
-@media screen and (max-width: 718px){
+@media screen and (max-width: 723px){
     .column2 {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
     }
 }
-@media screen and (max-width: 718px){
+@media screen and (max-width: 723px){
     .column1 {
         -ms-flex: 100%;
         flex: 100%;
