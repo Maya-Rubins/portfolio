@@ -56,7 +56,6 @@ section#eyes {position: static;
 }
 
 .column2{
-    margin-top: 0 auto;
     align-content: flex-start;
     background-color: white;
     vertical-align: middle;
