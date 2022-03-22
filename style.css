@@ -62,7 +62,6 @@ body {
     .nav-list .list-item {
         display: block;
         border-top: 1px solid ghostwhite;
-        border-bottom: 1px solid ghostwhite;
     }
     .icon {
         margin-top: 10px;

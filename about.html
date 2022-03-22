@@ -8,7 +8,11 @@
         </title>
 
          <link rel="stylesheet" href="style.css">
-        
+         <script>
+            function showAlert(){
+            alert("Welcome to Maya's profile page!");
+            }
+        </script>
         <style>
             *{box-sizing: border-box;}
             @font-face {font-family: my_font_1; src: url(computers.otf);}
@@ -18,20 +22,32 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     </head>
     <body>
-        
-    <div id="main">
-        
-        <h3> Get to Know Me... </h3>
-        <nav>
-            
-            <a href="contact.html"> Contact Me </a>
-            
-            <a href="resume.html"> Resume </a>
-            
-            <a href="about.html"> About Me </a>
-            
-            <a href="index.html"> Home </a>
-        </nav>
+        <nav class="navbar">
+            <div style="width: 100%">
+                <a href="index.html">
+                    <h3 class="icon" onclick="showAlert()"> Get to Know Me... </h3>
+                </a>
+            </div>
+       <ul class="nav-list" id="navi-list"> 
+            <li class="list-item">
+                <a href="contact.html"> Contact Me </a>
+            </li>
+            <li class="list-item">
+                <a href="resume.html"> Resume </a>
+            </li>
+            <li class="list-item">
+                <a href="about.html"> About Me </a>
+            </li>
+            <li class="list-item">
+                <a href="index.html"> Home </a>
+            </li>
+        </ul>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
         
         <section id="eyes"> </section>
     
@@ -73,15 +89,19 @@
                     <img src="IMG_3653.jpg" alt="Girl in Miami" style="width: 100%">          
                     <img src="graduation.jpg" alt="Graduation" style="width: 100%">
                 </div>
-        
         </div>
         <footer> 
             <small> 
                 &copy; 2022 - Maya Rubins.
             </small> 
         </footer>
-        
-    </div>
-    
     </body>
+    <script>
+        const toggleButton = document.getElementById('toggle-button');
+        const naviList = document.getElementById('navi-list');
+
+            toggleButton.addEventListener('click', () => {
+                naviList.classList.toggle('active');
+             })
+    </script>
 </html>
