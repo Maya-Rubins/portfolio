@@ -68,6 +68,13 @@ section#eyes {position: static;
         max-width: 100%;
     }
 }
+@media screen and (max-width: 600px){
+    .column1 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
 
 #article {display: flexbox;
     height: auto;
