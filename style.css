@@ -46,13 +46,6 @@ body {
         right: 15px;
         top: 15px;
     }
-    .nav-list {
-        list-style-type: none;
-        width: 100%;
-        text-align: center;
-        padding-top: 12px;
-        display: none;
-    }
 }
 aside#right {
     position: static;
