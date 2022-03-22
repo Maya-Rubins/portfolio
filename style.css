@@ -70,6 +70,10 @@ body {
     .active {
         display: block;
     }
+
+    .home {
+        border-bottom: 1px solid ghostwhite;
+    }
 }
 aside#right {
     position: static;
