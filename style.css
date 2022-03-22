@@ -57,6 +57,7 @@ section#eyes {position: static;
 
 .column2{
     margin-top: 0 auto;
+    align-content: flex-start;
     vertical-align: middle;
     width: 30%;
 }
