@@ -14,7 +14,7 @@ body {
 .nav-list {
     list-style-type: none;
     padding-inline-start: 0px;
-    width: 100%;
+    width: 50%;
 }
 
 .nav-list .list-item {
@@ -37,7 +37,7 @@ body {
     height: 30px;
 }
 
-@media all and (max-width: 900px){
+@media all and (max-width: 1290px){
     .navbar {
         flex-direction: column;
         position: relative;
