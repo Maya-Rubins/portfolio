@@ -60,16 +60,17 @@ section#eyes {position: static;
     background-color: white;
     vertical-align: middle;
     width: 30%;
+    padding-top: 4px;
 }
 
-@media screen and (max-width: 536px){
+@media screen and (max-width: 865px){
     .column2 {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
     }
 }
-@media screen and (max-width: 536px){
+@media screen and (max-width: 865px){
     .column1 {
         -ms-flex: 100%;
         flex: 100%;
