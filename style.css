@@ -45,7 +45,7 @@ section#eyes {position: static;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    align content: flex-start;
+    align-content: flex-start;
 }
 
 .column1{
