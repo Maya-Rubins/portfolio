@@ -93,9 +93,10 @@ body {
 .left {
     width: 50%;
     height: 600px;
-    background:url(IMG_2944.jpg) no repeat center / cover;
+    background-image:url(IMG_2944.jpg);
+    background-position: center;
+    background-size: cover;
 }
-
 .right {
     width: 50%;
     min-height: 400px;
