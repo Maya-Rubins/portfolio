@@ -71,8 +71,17 @@ body {
         display: block;
     }
 }
-aside#right {
-    position: static;
+
+.page {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.right {
+    flex: 50%;
     box-sizing: border-box;
     height: 269px;
     background-color: #93AA9D;
@@ -80,8 +89,8 @@ aside#right {
     float: right;
 }
 
-aside#left {
-    position: sticky;
+.left {
+    flex: 50%;
     box-sizing: border-box;
     height: 100%;
     width: 50%;
