@@ -72,28 +72,38 @@ body {
     }
 }
 
-.page {
-    display: -ms-flexbox;
+.container {
+    min-height: 100vh;
+    width: 100%;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f3333;
 }
 
-.right {
-    flex: 50%;
-    display: inline-block;
-    box-sizing: border-box;
-    height: 418px;
-    background-color: #93AA9D;
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .left {
-    flex: 50%;
-    box-sizing: border-box;
-    height: 418px;
-    background-size: cover;
-    background-position: center;
+    width: 50%;
+    height: 600px;
+    background:url(IMG_2944.jpg) no repeat center / cover;
+}
+
+.right {
+    width: 50%;
+    min-height: 400px;
+    background-color: #809388;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
 
 .row {
