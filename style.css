@@ -98,7 +98,7 @@ body {
 
 .right {
     width: 50%;
-    min-height: 600px;
+    min-height: 400px;
     background-color: #809388;
     display: flex;
     align-items: center;
@@ -295,6 +295,18 @@ p {
     background-color: ghostwhite;
     transform: translate(4px, 4px);
     font-style: oblique;
+}
+
+.right a {
+    font-family: my_font_3;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: ghostwhite;
+    color: #2f3333;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+
 }
 
 .fa { 
