@@ -83,19 +83,14 @@ body {
 .right {
     flex: 50%;
     box-sizing: border-box;
-    height: 269px;
+    height: 100%;
     background-color: #93AA9D;
-    width: 50%;
-    float: right;
 }
 
 .left {
     flex: 50%;
     box-sizing: border-box;
     height: 100%;
-    width: 50%;
-    float: left;
-    background-image:url(IMG_2944.jpg);
     background-size: cover;
     background-position: center;
 }
