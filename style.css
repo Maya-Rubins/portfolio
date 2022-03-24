@@ -86,6 +86,7 @@ body {
     margin: 0px;
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -107,6 +108,9 @@ body {
 
 .bottom {
     display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
 }
 
 .row {
