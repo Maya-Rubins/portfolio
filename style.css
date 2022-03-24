@@ -48,8 +48,8 @@ body {
     .menu {
         display: block;
         position: absolute;
-        right: 15px;
-        top: 15px;
+        right: 1.5em;
+        top: 1.5em;
     }
     .nav-list {
         list-style-type: none;
@@ -93,14 +93,14 @@ body {
 
 .left {
     width: 50%;
-    height: 600px;
+    height: 60vw;
     background-image:url(IMG_2944.jpg);
     background-position: center;
     background-size: cover;
 }
 .right {
     width: 50%;
-    height: 600px;
+    height: 60vw;
     background-color: #809388;
     display: inline-flex;
     align-items: center;
@@ -207,9 +207,19 @@ h2 {
 
 h3 {
     font-family: my_font_1;
-    font-size: 30px; 
+    font-size: 2em; 
     text-align: left;
     color: ghostwhite;
+}
+
+@media screen and (min-width: 420px){
+    .h3 {
+        font-size: 1em;
+    }
+    .menu {
+        right: 0.5 em;
+        top: 0.7em;
+    }
 }
 
 h4 {
