@@ -212,7 +212,7 @@ h3 {
     color: ghostwhite;
 }
 
-@media screen and (min-width: 420px){
+@media screen and (max-width: 420px){
     .h3 {
         font-size: 1em;
     }
