@@ -104,6 +104,10 @@ body {
     justify-content: center;
 }
 
+.bottom {
+    display: flex;
+}
+
 .row {
     display: -ms-flexbox;
     display: flex;
