@@ -82,9 +82,7 @@ body {
 }
 
 .container {
-    width: 90%;
     max-width: 1000px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,13 +97,11 @@ body {
 }
 .right {
     width: 50%;
-    min-height: 400px;
+    min-height: 300px;
     background-color: #809388;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    margin-left: -150px;
 }
 
 .row {
@@ -185,7 +181,10 @@ small {
 }
 
 h1 {
-    padding-left: 100%;
+    float: left;
+    margin-top: 0px;
+    margin-left:-90px;
+    margin-bottom: 0px;
     background-color: transparent;
     color:#2f3333;
     opacity: 100%;
@@ -195,7 +194,9 @@ h1 {
 
 h2 {
     position: absolute;
-    padding-left: 2%;
+    margin-left: -75px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     float: right;
     color:ghostwhite;
     opacity: 0.5;
@@ -214,6 +215,7 @@ h3 {
 
 h4 {
     position: absolute;
+    margin-left: -100px;
     font-family: my_font_1;
     font-size: 30px; 
     float: left;
@@ -299,7 +301,7 @@ p {
     font-style: oblique;
 }
 
-.right a {
+.button {
     font-family: my_font_3;
     text-decoration: none;
     text-transform: uppercase;
