@@ -190,10 +190,6 @@ small {
 }
 
 h1 {
-    float: left;
-    margin-top: 0px;
-    margin-left:-90px;
-    margin-bottom: 0px;
     background-color: transparent;
     color:#2f3333;
     opacity: 100%;
@@ -202,11 +198,7 @@ h1 {
 }
 
 h2 {
-    position: absolute;
-    margin-left: -75px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    float: right;
+    margin-left: -7vw;
     color:ghostwhite;
     opacity: 0.5;
     font-size: 15vw;
@@ -216,20 +208,15 @@ h2 {
 h3 {
     font-family: my_font_1;
     font-size: 30px; 
-    width: 100%;
-    margin-top: 10px;
-    margin-left: 10px;
+    text-align: left;
     color: ghostwhite;
 }
 
 h4 {
-    position: absolute;
-    margin-left: -100px;
+    margin-left: -42.5vw;
     font-family: my_font_1;
-    font-size: 30px; 
-    float: left;
+    font-size: 2.5vw; 
     opacity:0.5;
-    padding-left: 30px;
     color: ghostwhite;
     white-space: nowrap;
 }
