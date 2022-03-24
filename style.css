@@ -8,7 +8,6 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 18px;
 }
 
 .nav-list {
@@ -33,11 +32,7 @@ body {
     display: none;
 }
 
-.icon {
-    height: 30px;
-}
-
-@media all and (max-width: 1350px){
+@media all and (max-width: 1760px){
     .navbar {
         flex-direction: column;
         position: relative;
@@ -48,8 +43,7 @@ body {
     .menu {
         display: block;
         position: absolute;
-        right: 1.5em;
-        top: 1.5em;
+        right: 1.5vw;
     }
     .nav-list {
         list-style-type: none;
