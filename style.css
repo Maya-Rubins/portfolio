@@ -284,12 +284,11 @@ h5 {
     list-style-type: none;
     width: 100%;
 }
+
 .containertext {
-    font-size: 2vw;
-    display:block
+    margin-left: 2vw;
 }
-    
-    
+       
 .greet {position: center;
     padding-left: 70px;
     padding-right: 70px;
