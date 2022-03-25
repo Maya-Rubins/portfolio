@@ -182,15 +182,14 @@ footer {
     /* use clear to make footer got to the next line */
     clear: both;
     width: 100%;
-    height: 30px;
-    padding-top: 10px;
+    padding-top: 2vw;
     background-color: #2f3333;
     text-align: center;
 }
 
 small {
     color: ghostwhite;
-    font-size: 14px;
+    font-size: 2vw;
     font-family: arial;
 }
 
@@ -215,11 +214,11 @@ h2 {
 }
 
 .resume#text{
-    margin-left: -2vw;
+    margin-left: 1.5vw;
 }
 
 .resume#icon {
-    margin-left: -2vw;
+    margin-left: 0vw;
 }
 
 h3 {
@@ -247,17 +246,20 @@ h5 {
 }
 
 .resumelink {
-    margin-top:15px;
-    opacity: 100;
+    margin-top: 15vw;
+    margin-left: 3vw;
     position: absolute;
-    font-family: my_font_1;
-    font-size: 30px; 
-    float: left;
-    padding-left: 30px;
-    color: ghostwhite;
+    font-family: my_font_3;
+    font-size: 3vw; 
+    color: #2f3333;
+    text-transform: uppercase;
     white-space: nowrap;
     font-style: normal;
-    text-decoration: underline;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 3vw 8vw;
+    background-color: ghostwhite;
+    letter-spacing: 0.5vw;
 }
 
 .contacttext {
