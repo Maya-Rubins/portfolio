@@ -214,7 +214,7 @@ h2 {
 }
 
 .resume#text{
-    margin-left: 1.5vw;
+    margin-left: -5vw;
 }
 
 .resume#icon {
@@ -263,8 +263,8 @@ h5 {
 
 .resumelink {
     margin-top: 15vw;
-    margin-left: 3vw;
     position: absolute;
+    margin-left: 2vw;
     font-family: my_font_3;
     font-size: 3vw; 
     color: #2f3333;
@@ -284,7 +284,7 @@ h5 {
     list-style-type: none;
     width: 100%;
 }
-.contacttext {
+.containertext {
     font-size: 2vw;
     display:block
 }
