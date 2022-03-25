@@ -222,11 +222,11 @@ h2 {
 }
 
 .contact{
-    font-size: 12vw;
+    font-size: 12.5vw;
 }
 
 .contact#text{
-    margin-left: 1.5vw;
+    margin-left: -5vw;
 }
 
 .contact#icon{
@@ -234,7 +234,8 @@ h2 {
 }
 
 .contact#intro{
-    margin-left: 2vw;
+    margin-left: -46vw;
+    font-size: 2.5vw;
 }
 h3 {
     font-family: my_font_1;
@@ -279,6 +280,9 @@ h5 {
 
 .iconcontainer{
     display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
 }
 .contacttext {
     font-size: 2vw;
