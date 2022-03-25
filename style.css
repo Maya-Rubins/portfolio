@@ -104,6 +104,13 @@ body {
     align-items: center;
 }
 
+.row {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+
 .bottom {
     display: flex;
     width: 100%;
@@ -218,6 +225,12 @@ h4 {
     opacity:0.5;
     color: ghostwhite;
     white-space: nowrap;
+}
+
+h5 {
+    font-family: my_font_1;
+    font-size: 3vw;
+    color: ghostwhite;
 }
 
 .resumelink {
