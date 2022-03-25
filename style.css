@@ -12,7 +12,7 @@ body {
 
 .nav-list {
     list-style-type: none;
-    margin-right: -20vw;
+    margin-right: -2vw;
     font-size: 1.8vw;
     width: 100%;
 }
@@ -311,21 +311,23 @@ p {
 }
 
 .button {
-    font-family: my_font_3;
-    text-decoration: none;
-    text-transform: uppercase;
     background-image: url(cooking.jpg);
     background-position: center;
     background-size: 100vw;
+
+}
+.button a {
+    font-family: my_font_3;
+    text-decoration: none;
+    text-transform: uppercase;
     color: #FFFFFF;
     padding: 8vw 8vw;
     display: inline-block;
     letter-spacing: 0.5vw;
     font-size: 4vw;
-
 }
 
-.bottom a:hover {
+.button a:hover {
     opacity: 0.5;
     background-color: #2f3333;
     color: #FFFFFF;
