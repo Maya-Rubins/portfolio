@@ -210,7 +210,7 @@ h2 {
     font-family: my_font_1;
 }
 
-h2.resume {
+.resume {
     margin-left: -7vw;
     color:ghostwhite;
     opacity: 0.5;
