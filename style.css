@@ -300,9 +300,11 @@ p {
     font-family: my_font_3;
     text-decoration: none;
     text-transform: uppercase;
-    background-image: url(food.jpg);
-    color: #2f3333;
-    padding: 8vw 4vw;
+    background-image: url(cooking.jpg);
+    background-position: center;
+    background-size: 100vw;
+    color: #FFFFFF;
+    padding: 8vw 8vw;
     display: inline-block;
     letter-spacing: 0.5vw;
     font-size: 4vw;
