@@ -326,7 +326,7 @@ p {
 }
 
 .button a:hover {
-    background-color: transparent;
+    opacity: 0.5;
 }
 
 .fa { 
