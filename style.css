@@ -104,10 +104,16 @@ body {
     align-items: center;
 }
 
-.row {
+.row1{
+    display:-ms-flexbox;
+    display: flex;
+    align-content: flex-start;
+}
+
+.row2{
     display: flex;
     width: 100%;
-    text-align: center;
+    display: center;
     flex-direction: column;
 }
 
