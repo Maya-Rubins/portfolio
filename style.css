@@ -263,13 +263,16 @@ h5 {
 }
 
 .contacttext {
-    font-size: 25px;
+    font-size: 6vw;
 }
 
 .contactlink { 
     margin-top: -250px;
-    padding-left: 150px;}
-    p1 {position: center;
+    padding-left: 150px;
+}
+    
+    
+.greet {position: center;
     padding-left: 70px;
     padding-right: 70px;
     color: black;
