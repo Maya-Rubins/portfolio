@@ -221,6 +221,21 @@ h2 {
     margin-left: 0vw;
 }
 
+.contact{
+    font-size: 12vw;
+}
+
+.contact#text{
+    margin-left: 1.5vw;
+}
+
+.contact#icon{
+    margin-left: 0vw;
+}
+
+.contact#intro{
+    margin-left: 2vw;
+}
 h3 {
     font-family: my_font_1;
     font-size: 4vw; 
@@ -262,13 +277,18 @@ h5 {
     letter-spacing: 0.5vw;
 }
 
+.iconcontainer{
+    display: flex;
+}
 .contacttext {
     font-size: 2vw;
+    display:block
 }
 
 .contactlink { 
     margin-top: -250px;
     padding-left: 150px;
+    display: block;
 }
     
     
