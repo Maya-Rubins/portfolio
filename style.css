@@ -214,6 +214,10 @@ h2 {
     font-size: 12vw;
 }
 
+.resume#text{
+    margin-left: 2vw;
+}
+
 h3 {
     font-family: my_font_1;
     font-size: 4vw; 
