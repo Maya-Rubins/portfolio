@@ -231,6 +231,7 @@ h5 {
     font-family: my_font_1;
     font-size: 3vw;
     color: ghostwhite;
+    width: 100%;
 }
 
 .resumelink {
@@ -322,6 +323,10 @@ p {
     letter-spacing: 0.5vw;
     font-size: 4vw;
 
+}
+
+.button a:hover {
+    background-color: transparent;
 }
 
 .fa { 
