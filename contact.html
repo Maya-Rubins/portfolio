@@ -24,53 +24,54 @@
     </head>
     <body>
         <nav class="navbar">
-            <div style="width: 100%">
+            <div class="header">
                 <a href="index.html">
-                    <h3 class="icon" onclick="showAlert()"> Reach Out </h3>
+                    <h3 onclick="showAlert()"> My Resume </h3>
                 </a>
             </div>
-       <ul class="nav-list" id="navi-list"> 
-            <li class="list-item">
-                <a href="contact.html"> Contact Me </a>
-            </li>
-            <li class="list-item">
-                <a href="resume.html"> Resume </a>
-            </li>
-            <li class="list-item">
-                <a href="about.html"> About Me </a>
-            </li>
-            <li class="list-item">
-                <a href="index.html"> Home </a>
-            </li>
-        </ul>
-        <div class="menu" id="toggle-button">
-            <div class="menu-line"></div>
-            <div class="menu-line"></div>
-            <div class="menu-line"></div>
-        </div>
-    </nav>
-        <ul class="container">
-            <li class="left"></li>
-            <li class="right">
-                <h1 class="contact" id="icon"> &lt; <br> &gt; </h1>
-                <h2 class="contact" id="text"> Let's <br> Talk </h2> 
-                <br>
-                <h4 class="contact" id="intro">
-                I'm Maya,
-                <br>
-                UX Designer_
-                </h4>
-                <br>
-            </li>
-        <ul class="iconcontainer"></ul>
-            <li class="containertext"><h4 class="containertext"> Phone Number: 507-581-3889</h4>
-                <h4 class="containertext">Email: maya.rubins@gmail.com</h4>
-            </li>
-            <li class="containericon"><a href="https://www.facebook.com/maya.rubins/" class="fa fa-facebook"></a></li>
-            <li class="containericon"><a href="https://www.instagram.com/mraesoccer5/" class="fa fa-instagram"></a></li>
-            <li class="containericon"><a href="https://www.linkedin.com/in/maya-rubins-3aa861161/" class="fa fa-linkedin"></a></li>
-        </ul>
-        </ul>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+       <div class="navbar-links" id="navbar-links"> 
+           <ul>
+                <li>
+                    <a href="contact.html"> Contact Me </a>
+                </li>
+                <li>
+                    <a href="resume.html"> Resume </a>
+                </li>
+                <li>
+                    <a href="about.html"> About Me </a>
+                </li>
+                <li>
+                    <a href="index.html"> Home </a>
+                </li>
+            </ul>
+        </nav>
+            <ul class="container">
+                <li class="left"></li>
+                <li class="right">
+                    <h1 class="contact" id="icon"> &lt; <br> &gt; </h1>
+                    <h2 class="contact" id="text"> Let's <br> Talk </h2> 
+                    <br>
+                    <h4 class="contact" id="intro">
+                    I'm Maya,
+                    <br>
+                    UX Designer_
+                    </h4>
+                    <br>
+                </li>
+            <ul class="iconcontainer"></ul>
+                <li class="containertext"><h4 class="containertext"> Phone Number: 507-581-3889</h4>
+                    <h4 class="containertext">Email: maya.rubins@gmail.com</h4>
+                </li>
+                <li class="containericon"><a href="https://www.facebook.com/maya.rubins/" class="fa fa-facebook"></a></li>
+                <li class="containericon"><a href="https://www.instagram.com/mraesoccer5/" class="fa fa-instagram"></a></li>
+                <li class="containericon"><a href="https://www.linkedin.com/in/maya-rubins-3aa861161/" class="fa fa-linkedin"></a></li>
+            </ul>
+            </ul>
         <footer> 
             <small> 
                 &copy; 2022 - Maya Rubins.
@@ -78,11 +79,11 @@
         </footer>
     </body>
     <script>
-        const toggleButton = document.getElementById('toggle-button');
-        const naviList = document.getElementById('navi-list');
+        const toggleButton = document.getElementByClassName('toggle-button')[0]
+        const naviList = document.getElementByClassNaame('navbar-links')[0]
 
             toggleButton.addEventListener('click', () => {
-                naviList.classList.toggle('active');
+                navbarLinks.classList.toggle('active')
              })
     </script>
 </html>
