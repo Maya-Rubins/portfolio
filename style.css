@@ -384,7 +384,7 @@ p {
     font-size: 4vw;
     width: 6vw;
     list-style-type: none;
-    display: inline-block;
+    display: block;
     border-radius: 5%;
     text-align: center;
     text-decoration: none;
@@ -410,8 +410,9 @@ p {
     color: ghostwhite;
 }
 
-@media screen and (maxwidth: 235px){
+@media screen and (max-width: 235px){
     .fa{
         width: 100%;
+        align-items: center;
     }
 }
