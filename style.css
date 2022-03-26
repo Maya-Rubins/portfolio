@@ -410,7 +410,7 @@ p {
 }
 
 @media screen and (maxwidth: 235px){
-    .fa{
+    .contactlink{
         width: 100%;
     }
 }
