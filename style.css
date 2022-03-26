@@ -45,7 +45,6 @@ body {
     .menu {
         display: block;
         position: absolute;
-        margin-top: 10vw;
         right: 1.5vw;
         height: 10vw;
     }
@@ -54,7 +53,6 @@ body {
         width: 100%;
         font-size: 2.5vw;
         text-align: center;
-        padding-top: 10px;
         display: none;
         padding-inline-start: 0px;
     }
