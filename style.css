@@ -287,7 +287,7 @@ h5 {
 }
 
 .containertext {
-    margin-right: 4vw;
+    margin-left: 4vw;
     flex-wrap: wrap;
     font-family: my_font_3;
     text-transform: uppercase;
