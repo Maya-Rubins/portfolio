@@ -43,8 +43,9 @@ body {
         width: 100%;
     }
     .menu {
-        display: inline-block;
+        display: block;
         position: absolute;
+        margin-top: 10vw;
         right: 1.5vw;
         height: 10vw;
     }
