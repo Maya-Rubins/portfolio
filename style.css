@@ -205,14 +205,13 @@ footer {
     /* use clear to make footer got to the next line */
     clear: both;
     width: 100%;
-    padding-top: 2vw;
     background-color: #2f3333;
     text-align: center;
 }
 
 small {
     color: ghostwhite;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: arial;
 }
 
