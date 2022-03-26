@@ -409,3 +409,8 @@ p {
     color: ghostwhite;
 }
 
+@media screen and (maxwidth: 235px){
+    .fa{
+        width: 100%;
+    }
+}
