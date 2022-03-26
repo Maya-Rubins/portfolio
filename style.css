@@ -345,13 +345,6 @@ p {
     background-color: #2f3333;
 }
 
-.navbar a:hover {
-    background-color: #ddd;
-    color: #2f3333;
-    text-decoration: none;
-    font-style: italic;
-    }
-
 .navbar a:active {
     color: #809388;
     background-color: ghostwhite;
