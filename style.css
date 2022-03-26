@@ -411,8 +411,7 @@ p {
 }
 
 @media screen and (max-width: 235px){
-    .fa{
-        width: 100%;
-        align-items: center;
+    .containertext{
+        display: flex;
     }
 }
