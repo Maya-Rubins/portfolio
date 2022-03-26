@@ -340,41 +340,6 @@ p {
     line-height: 4vw;
 }
 
-/* style for a tags inside of nav */
-.navbar a {
-    color: ghostwhite;
-    text-align: center;
-    text-decoration: none;
-    font-family: my_font_2;
-}
-
-.navbar a:link {
-    color: ghostwhite;
-    background-color: #2f3333;
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-}
-
-.navbar a:visited {
-    color: ghostwhite;
-    background-color: #2f3333;
-}
-
-.navbar a:hover {
-    background-color: #ddd;
-    color: #2f3333;
-    text-decoration: none;
-    font-style: italic;
-    }
-
-.navbar a:active {
-    color: #809388;
-    background-color: ghostwhite;
-    transform: translate(4px, 4px);
-    font-style: oblique;
-}
-
 .button {
     background-image: url(cooking.jpg);
     background-position: center;
