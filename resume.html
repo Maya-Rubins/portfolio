@@ -25,11 +25,11 @@
             <a href="index.html"></a>
                 <div class="header" onclick="showAlert()"> <h3>My Resume</h3></div>
             </a>
-            <a href="#" class="toggle-button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
+            <div class="toggle-button">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
        <div class="navbar-links"> 
            <ul>
                 <li>
@@ -65,7 +65,7 @@
     </body>
     <script>
         const toggleButton = document.getElementByClassName('toggle-button')[0]
-        const navbarLinks = document.getElementByClassNaame('navbar-links')[0]
+        const navbarLinks = document.getElementByClassName('navbar-links')[0]
 
             toggleButton.addEventListener('click', () => {
                 navbarLinks.classList.toggle('active')
