@@ -258,7 +258,6 @@ h2 {
 h3 {
     font-family: my_font_1;
     font-size: 4vw; 
-    text-align: left;
     padding-left: 1em;
     color: ghostwhite;
 }
@@ -338,17 +337,7 @@ p {
 
 /* style for a tags inside of nav */
 .navbar a {
-    color: ghostwhite;
-    text-align: center;
     text-decoration: none;
-    font-family: my_font_2;
-}
-
-.navbar a:link {
-    color: ghostwhite;
-    background-color: #2f3333;
-    text-decoration: none;
-    text-align: center;
 }
 
 .navbar a:visited {
