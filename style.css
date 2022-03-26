@@ -74,11 +74,12 @@ body {
 
     .navbar-links {
         display: none;
-        width: 100%
+        width: 100%;
     }
 
     .navbar-links ul {
         flex-direction: column;
+        border-top: 0.5vw solid ghostwhite;
         width: 100%;
     }
 
@@ -88,6 +89,7 @@ body {
 
     .navbar-links li a {
         padding: 0.5rem 1rem;
+        border-bottom: 0.5vw solid ghostwhite;
     }
     .navbar-links.active {
         display: flex;
