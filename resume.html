@@ -25,12 +25,12 @@
             <a href="index.html"></a>
                 <div class="header" onclick="showAlert()"> <h3>My Resume</h3></div>
             </a>
-            <div class="toggle-button">
+            <div class="toggle-button" id="toggle-button">
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
             </div>
-       <div class="navbar-links"> 
+       <div class="navbar-links" id="navbar-links"> 
            <ul>
                 <li>
                     <a href="contact.html"> Contact Me </a>
@@ -64,11 +64,11 @@
         </footer>
     </body>
     <script>
-        const toggleButton = document.getElementByClassName('toggle-button')[0]
-        const navbarLinks = document.getElementByClassName('navbar-links')[0]
+        const toggleButton = document.getElementById('toggle-button');
+        const navbarLinks = document.getElementById('navbar-links');
 
             toggleButton.addEventListener('click', () => {
-                navbarLinks.classList.toggle('active')
+                navbarLinks.classList.toggle('active');
              })
     </script>
 </html>
