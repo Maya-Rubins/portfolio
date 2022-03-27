@@ -361,7 +361,7 @@ p {
 
 }
 
-.button a:hover {
+.bottom a:hover {
     opacity: 0.5;
     text-decoration: none;
     background-color: #2f3333;
