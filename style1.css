@@ -5,5 +5,38 @@ body {
 }
 
 #top {
+    display: flex;
     border-bottom: 1vw solid ghostwhite;
+}
+
+.top-left{
+    display: inline-flex
+}
+
+.top-right {
+    display: inline-flex;
+}
+
+#middle {
+    display: flex;
+    border-bottom: 1vw solid ghostwhite;
+}
+
+.middle-left {
+    display: inline-flex;
+}
+
+.middle-right {
+    display: inline-flex;
+}
+
+#bottom {
+    display: flex;
+}
+
+.bottom-left {
+    display: inline-flex;
+}
+.bottom-right {
+    display: inline-flex;
 }
