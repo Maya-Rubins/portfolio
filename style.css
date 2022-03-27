@@ -142,7 +142,11 @@ body {
     width: 100%;
     text-align: center;
     flex-direction: column;
+    opacity: 1;
+    transition: 0.3s;
 }
+
+.bottom:hover{opacity:0.6}
 
 .row1{
     display: -ms-flexbox;
