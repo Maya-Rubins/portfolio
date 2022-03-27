@@ -4,7 +4,7 @@ body {
     font-family: my_font_3;
 }
 
-#top {
+.top {
     display: flex;
     border-bottom: 1vw solid ghostwhite;
 }
@@ -18,7 +18,7 @@ body {
     display: inline-flex;
 }
 
-#middle {
+.middle {
     display: flex;
     border-bottom: 1vw solid ghostwhite;
 }
@@ -26,14 +26,13 @@ body {
 .middle-left {
     display: inline-flex;
     width: 30%;
-    border-bo
 }
 
 .middle-right {
     display: inline-flex;
 }
 
-#bottom {
+.bottom {
     display: flex;
 }
 
