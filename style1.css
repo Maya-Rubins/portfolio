@@ -10,7 +10,8 @@ body {
 }
 
 .top-left{
-    display: inline-flex
+    display: inline-flex;
+    width: 30%;
 }
 
 .top-right {
@@ -24,6 +25,7 @@ body {
 
 .middle-left {
     display: inline-flex;
+    width: 30%;
 }
 
 .middle-right {
@@ -36,7 +38,12 @@ body {
 
 .bottom-left {
     display: inline-flex;
+    width: 30%;
 }
 .bottom-right {
     display: inline-flex;
+}
+
+.h1 {
+    font-size: 10vw;
 }
