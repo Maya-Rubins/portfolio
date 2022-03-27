@@ -3,3 +3,7 @@ body {
     color: ghostwhite;
     font-family: my_font_3;
 }
+
+#top {
+    border-bottom: 1vw solid ghostwhite;
+}
