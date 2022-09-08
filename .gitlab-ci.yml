@@ -6,12 +6,14 @@
 
 # Full project: https://gitlab.com/pages/plain-html
 pages:
+  image: registry.gitlab.com/mrubins05/revealjs-template
   stage: deploy
   script:
     - mkdir .public
     - cp -r * .public
     - rm -rf public
     - mv .public public
+    - mv slides/* public
   artifacts:
     paths:
       - public
