@@ -13,9 +13,8 @@ pages:
     - cp -r * .public
     - rm -rf public
     - mv .public public
+    - mv /public public
     - mv slides/* public
   artifacts:
     paths:
       - public
-
-
