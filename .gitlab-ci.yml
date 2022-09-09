@@ -5,16 +5,18 @@
 # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Pages/HTML.gitlab-ci.yml
 
 # Full project: https://gitlab.com/pages/plain-html
+stages:
+  - pages
+
 pages:
   image: registry.gitlab.com/mrubins05/revealjs-template
-  stage: deploy
+  stage: pages
   script:
     - mkdir .public
     - cp -r * .public
     - rm -rf public
     - mv .public public
-    - mv /public/dist public
-    - mv /public/plugin public
+    - mv /public public
     - mv slides/* public
   artifacts:
     paths:
