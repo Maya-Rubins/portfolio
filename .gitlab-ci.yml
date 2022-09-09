@@ -12,9 +12,10 @@ pages:
     - mkdir .public
     - cp -r * .public
     - rm -rf public
-    - mv /public/* public
-    - mv slides/* public
     - mv .public public
+    - mv /public/dist public
+    - mv /public/plugin public
+    - mv slides/* public
   artifacts:
     paths:
       - public
