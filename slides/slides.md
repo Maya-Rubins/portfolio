@@ -2,9 +2,9 @@
 
 This is the first slide
 
----vertical---
+---slide---
 
-# Nice vertical slide!
+# Nice Maya slide!
 
 ---slide---
 
