@@ -6,7 +6,8 @@
 
 # Full project: https://gitlab.com/pages/plain-html
 pages:
-  image: registry.gitlab.com/mrubins05/revealjs-template
+  #image: registry.gitlab.com/mrubins05/revealjs-template
+  image: node 
   stage: deploy
   script:
     - mkdir .public
