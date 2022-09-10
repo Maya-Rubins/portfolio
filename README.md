@@ -1,4 +1,4 @@
-# maya-portfolio-foo
+# maya-portfolio-bar
 
 
 
