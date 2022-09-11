@@ -318,14 +318,10 @@ h5 {
 }
 
 .containertext {
-    margin-right: 2vw;
     margin-left: -0.5vw;
-    flex-wrap: wrap;
     font-family: my_font_3;
     text-transform: uppercase;
     letter-spacing: 0.5vw;
-    display: block;
-    justify-content: flex-end;
     color: #FFFFFF;
 }
        
