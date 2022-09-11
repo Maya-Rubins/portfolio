@@ -320,11 +320,6 @@ h5 {
     letter-spacing: 0.5vw;
     color: #FFFFFF;
 }
-
-a.containertext:visited {
-    color: ghostwhite;
-    opacity:0.5;
-}
        
 .greet {position: center;
     padding-left: 70px;
