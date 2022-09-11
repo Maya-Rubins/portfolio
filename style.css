@@ -313,14 +313,6 @@ h5 {
     letter-spacing: 0.5vw;
 }
 
-.iconcontainer{
-    display: inline-flex;
-    padding-inline-start: 0vw;
-    justify-content: flex-end;
-    list-style-type: none;
-    width: 100%;
-}
-
 .containertext {
     margin-left: 1vw;
     margin-right: 2vw;
