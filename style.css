@@ -276,7 +276,7 @@ h3 {
 }
 
 h4 {
-    margin-left: -42.5vw;
+   /*margin-left: -42.5vw;*/
     font-family: my_font_1;
     font-size: 2.5vw; 
     opacity:0.5;
@@ -318,7 +318,8 @@ h5 {
 }
 
 .containertext {
-    margin-left: -0.5vw;
+    margin-left: 1vw;
+    margin-right: 2vw;
     font-family: my_font_3;
     text-transform: uppercase;
     letter-spacing: 0.5vw;
