@@ -276,7 +276,6 @@ h3 {
 }
 
 h4 {
-   /*margin-left: -42.5vw;*/
     font-family: my_font_1;
     font-size: 2.5vw; 
     opacity:0.5;
@@ -320,6 +319,11 @@ h5 {
     text-transform: uppercase;
     letter-spacing: 0.5vw;
     color: #FFFFFF;
+}
+
+a.containertext:visited {
+    color: ghostwhite;
+    opacity:0.5;
 }
        
 .greet {position: center;
