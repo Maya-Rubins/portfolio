@@ -359,8 +359,25 @@ p {
     font-size: 4vw;
     opacity: 1;
     transition: 0.3s;
+}
+
+.button1 {
+    background-image: url(plants.jpg);
+    background-position: center;
+    background-size: 100vw;
+    padding: 8vw 8vw;
+    font-family: my_font_3;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+    letter-spacing: 0.5vw;
+    font-size: 4vw;
+    opacity: 1;
+    transition: 0.3s;
 
 }
+
 .button a {
     text-decoration: none;
 
