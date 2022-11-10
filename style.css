@@ -147,7 +147,23 @@ body {
     margin-bottom: 1em;
 }
 
-.bottom:hover{opacity:0.6}
+.bottom1 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    opacity: 1;
+    transition: 0.3s;
+    margin-bottom: 1em;
+}
+
+.bottom:hover {
+    opacity:0.6;
+}
+
+.bottom1:hover {
+    opacity:0.6;
+}
 
 .row1{
     display: -ms-flexbox;
