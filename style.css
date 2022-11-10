@@ -380,7 +380,10 @@ p {
 
 .button a {
     text-decoration: none;
+}
 
+.button1 a {
+    text-decoration: none;
 }
 
 .button a:hover {
@@ -388,6 +391,13 @@ p {
     text-decoration: none;
     background-color: #2f3333;
     color: #FFFFFF;
+}
+
+.button1 a:hover {
+    opacity: 0.5;
+    text-decoration: none;
+    background-color: #2f3333;
+    color: #FFFFFF
 }
 
 .fa { 
