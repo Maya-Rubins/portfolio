@@ -363,7 +363,8 @@ p {
 
 .button {
     background-image: url(cooking.jpg);
-    background-position: center;
+    background-position-y: -160px;
+    background-position-x: center;
     background-size: 100vw;
     padding: 8vw 8vw;
     font-family: my_font_3;
@@ -379,7 +380,8 @@ p {
 
 .button1 {
     background-image: url(plants.jpg);
-    background-position: bottom;
+    background-position-y: 310px;
+    background-position-x: center;
     background-size: 100vw;
     padding: 8vw 8vw;
     font-family: my_font_3;
