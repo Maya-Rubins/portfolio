@@ -363,7 +363,7 @@ p {
 
 .button {
     background-image: url(cooking.jpg);
-    background-position: center;
+    background-position-y: -160px;
     background-size: 100vw;
     padding: 8vw 8vw;
     font-family: my_font_3;
