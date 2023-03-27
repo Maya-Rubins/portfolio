@@ -64,7 +64,7 @@
                 <h4 id="position">
                 I'm Maya,
                 <br>
-                UX Designer_
+                <span class="auto-type"></span>
                 </h4>
             </li>  
         </ul>
@@ -73,6 +73,15 @@
                 &copy; 2022 - Maya Rubins.
             </small> 
         </footer>
+        <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+        <script> 
+            var typed = new Typed(".auto-type", {
+                strings: ["UX Designer", "UX Researcher", "Product Designer"],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop: true
+            })
+        </script>
     </body>
     <script>
         const toggleButton = document.getElementsByClassName('toggle-button')[0]
