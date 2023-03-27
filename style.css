@@ -448,3 +448,7 @@ p {
         display: flex;
     }
 }
+
+.summary {
+    color:#FFFFFF;
+}
