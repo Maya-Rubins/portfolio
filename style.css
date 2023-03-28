@@ -448,3 +448,16 @@ p {
         display: flex;
     }
 }
+
+.hide {
+    display: none;
+}
+
+.wrapper:hover + .hide {
+    display: block;
+    color: #FFFFFF;
+}
+
+.hide1 {
+    display: none;
+}
