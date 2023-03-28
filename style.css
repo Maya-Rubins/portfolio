@@ -364,7 +364,7 @@ p {
 .button {
     background-image: url(cooking.jpg);
     background-position: center;
-    background-size: 100vw;
+    background-size: cover;
     padding: 8vw 8vw;
     font-family: my_font_3;
     text-decoration: none;
@@ -380,7 +380,7 @@ p {
 .button1 {
     background-image: url(plants.jpg);
     background-position: bottom;
-    background-size: 100vw;
+    background-size: cover;
     padding: 8vw 8vw;
     font-family: my_font_3;
     text-decoration: none;
