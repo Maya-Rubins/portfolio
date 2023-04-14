@@ -315,6 +315,16 @@ h5 {
     margin-top: 0px;
 }
 
+h6 {
+    color:#FFFFFF;
+    font-family: my_font_3;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    font-size: 1vw;
+
+}
+
 .resumelink {
     margin-top: 15vw;
     position: absolute;
