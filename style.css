@@ -419,6 +419,10 @@ p {
     font-size: 0;
 }
 
+.button:hover + .hide {
+    display: block;
+    color:black;
+
 .button1 a:hover {
     opacity: 0.5;
     text-decoration: none;
