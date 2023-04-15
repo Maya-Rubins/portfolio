@@ -381,7 +381,7 @@ p {
     background-image: url(cooking.jpg);
     background-position: center;
     background-size: cover;
-    padding: 8vw 8vw;
+    padding: 4vw 4vw;
     font-family: my_font_3;
     text-decoration: none;
     text-transform: uppercase;
@@ -399,7 +399,7 @@ p {
     background-size: cover;
     background-color: #2f3333;
     opacity: 0.5;
-    padding: 8vw 8vw;
+    padding: 4vw 4vw;
     font-family: my_font_3;
     text-decoration: none;
     text-transform: uppercase;
