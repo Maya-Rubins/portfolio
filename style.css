@@ -391,6 +391,8 @@ p {
     background-image: url(plants.jpg);
     background-position: bottom;
     background-size: cover;
+    background-color: #2f3333;
+    opacity: 0.5;
     padding: 8vw 8vw;
     font-family: my_font_3;
     text-decoration: none;
@@ -417,9 +419,7 @@ p {
 }
 
 .button a:hover {
-    opacity: 0.5;
     text-decoration: none;
-    background-color: #2f3333;
     color: #FFFFFF;
     font-size: 0;
 }
