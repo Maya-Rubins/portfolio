@@ -145,6 +145,8 @@ body {
     opacity: 1;
     transition: 0.3s;
     margin-bottom: 1em;
+    background-color: gray;
+    opacity: 0.5;
 }
 
 .bottom1 {
@@ -155,14 +157,18 @@ body {
     opacity: 1;
     transition: 0.3s;
     margin-bottom: 1em;
+    background-color: gray;
+    opacity: 0.5;
 }
 
 .bottom:hover {
-    opacity:0.6;
+    opacity:0.8;
+    background-color: #FFFFFF;
 }
 
 .bottom1:hover {
-    opacity:0.6;
+    opacity:0.8;
+    background-color: #FFFFFF;
 }
 
 .row1{
