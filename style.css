@@ -422,6 +422,11 @@ p {
 .button:hover + .hide {
     display: block;
     color:black;
+}
+
+.fas fa-arrow-right:hover {
+    color: black;
+}
 
 .button1 a:hover {
     opacity: 0.5;
