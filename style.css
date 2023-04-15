@@ -424,6 +424,11 @@ p {
     margin-bottom: 0vw;
 }
 
+.hide1 {
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+}
+
 .button a:hover {
     text-decoration: none;
     color: #FFFFFF;
