@@ -444,19 +444,6 @@ p {
     font-size: 0;
 }
 
-.button:hover + .hide {
-    display: block;
-    color:black;
-}
-
-.button1 a:hover {
-    opacity: 0.5;
-    text-decoration: none;
-    background-color: #2f3333;
-    color: #FFFFFF;
-    font-size: 0;
-}
-
 .fa { 
     padding: 2vw;
     width: 4vw;
