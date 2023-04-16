@@ -430,11 +430,11 @@ p {
     display: none;
 }
 
-.foodventory:hover + .hide {
+.bottom:hover + .hide {
     display:block;
 }
 
-.perky:hover + .hide1 {
+.bottom1:hover + .hide1 {
     display:block;
 }
 
