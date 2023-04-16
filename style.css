@@ -430,6 +430,14 @@ p {
     display: none;
 }
 
+.foodventory:hover + .hide {
+    display:block;
+}
+
+.perky:hover + .hide1 {
+    display:block;
+}
+
 .button a:hover {
     text-decoration: none;
     color: #FFFFFF;
