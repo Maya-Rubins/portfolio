@@ -418,26 +418,6 @@ p {
     text-decoration: none;
 }
 
-.hide {
-    margin-top: 2vw;
-    margin-bottom: 0vw;
-    display: none;
-}
-
-.hide1 {
-    margin-top: 2vw;
-    margin-bottom: 0vw;
-    display: none;
-}
-
-.bottom:hover + .hide {
-    display:block;
-}
-
-.bottom1:hover + .hide1 {
-    display:block;
-}
-
 .button a:hover {
     text-decoration: none;
     color: #FFFFFF;
