@@ -421,11 +421,13 @@ p {
 .hide {
     margin-top: 2vw;
     margin-bottom: 0vw;
+    display: none;
 }
 
 .hide1 {
     margin-top: 2vw;
     margin-bottom: 0vw;
+    display: none;
 }
 
 .button a:hover {
@@ -437,11 +439,6 @@ p {
 .button:hover + .hide {
     display: block;
     color:black;
-}
-
-.fas fa-arrow-right:hover {
-    color: black;
-    display: block;
 }
 
 .button1 a:hover {
