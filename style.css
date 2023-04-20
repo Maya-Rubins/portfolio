@@ -378,9 +378,9 @@ p {
 }
 
 .button {
-    background-image: url(cooking.jpg);
+    background-image: url(food.png);
     background-position: center;
-    background-size: cover;
+    background-size: 10vw;
     padding: 4vw 4vw;
     font-family: my_font_3;
     text-decoration: none;
