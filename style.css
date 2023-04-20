@@ -379,13 +379,15 @@ p {
 
 .button {
     background-image: url(food.png);
-    background-position: center;
-    background-size: 10vw;
-    padding: 4vw 4vw;
+    background-position-x: 70vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    padding: 8vw 8vw;
     font-family: my_font_3;
     text-decoration: none;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: black;
     display: block;
     letter-spacing: 0.5vw;
     font-size: 4vw;
