@@ -378,16 +378,16 @@ p {
 }
 
 .button {
-    background-image: url(food.png);
+    background-image: url(cooking.jpg);
     background-position-x: 70vw;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-color: #FFFFFF;
+    background-color: ;
     padding: 8vw 8vw;
     font-family: my_font_3;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: #FFFFFF;
     display: block;
     letter-spacing: 0.5vw;
     font-size: 4vw;
