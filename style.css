@@ -379,7 +379,7 @@ p {
 
 .button {
     background-image: url(cooking.jpg);
-    background-position-x: 70vw;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: ;
