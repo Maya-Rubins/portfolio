@@ -146,7 +146,7 @@ body {
     transition: 0.3s;
     margin-bottom: 1em;
     background-color: #2f3333;
-    opacity: 0.2;
+    opacity: 0.8;
 }
 
 .bottom1 {
@@ -158,16 +158,16 @@ body {
     transition: 0.3s;
     margin-bottom: 1em;
     background-color: #2f3333;
-    opacity: 0.2;
+    opacity: 0.8;
 }
 
 .bottom:hover {
-    opacity:0.5;
+    opacity:1;
     background-color: #2f3333;
 }
 
 .bottom1:hover {
-    opacity:0.5;
+    opacity:1;
     background-color: #2f3333;
 }
 
