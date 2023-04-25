@@ -429,8 +429,8 @@ p {
 }
 
 .button2 {
-    background-image: url(dogs.jpg);
-    background-position-y: bottom;
+    background-image: url(happydog.jpg);
+    background-position: bottom;
     background-size: cover;
     opacity: 0.5;
     padding: 4vw 4vw;
