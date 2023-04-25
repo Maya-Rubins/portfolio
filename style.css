@@ -430,7 +430,7 @@ p {
 
 .button2 {
     background-image: url(dog.jpg);
-    background-position-y: -230px;
+    background-position-y: -250px;
     background-size: cover;
     opacity: 0.5;
     padding: 4vw 4vw;
