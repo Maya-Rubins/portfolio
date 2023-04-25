@@ -161,12 +161,29 @@ body {
     opacity: 0.8;
 }
 
+.bottom2 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    opacity: 1;
+    transition: 0.3s;
+    margin-bottom: 1em;
+    background-color: #2f3333;
+    opacity: 0.8;
+}
+
 .bottom:hover {
     opacity:1;
     background-color: #2f3333;
 }
 
 .bottom1:hover {
+    opacity:1;
+    background-color: #2f3333;
+}
+
+.bottom2:hover {
     opacity:1;
     background-color: #2f3333;
 }
@@ -382,7 +399,6 @@ p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: ;
     padding: 4vw 4vw;
     font-family: my_font_3;
     text-decoration: none;
@@ -412,6 +428,23 @@ p {
     transition: 0.3s;
 }
 
+.button2 {
+    background-image: url(dog.jpg);
+    background-position: top;
+    background-size: cover;
+    opacity: 0.5;
+    padding: 4vw 4vw;
+    font-family: my_font_3;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    letter-spacing: 0.5vw;
+    font-size: 4vw;
+    opacity: 1;
+    transition: 0.3s;
+}
+
 .button a {
     text-decoration: none;
 }
@@ -420,6 +453,9 @@ p {
     text-decoration: none;
 }
 
+.button2 a {
+    text-decoration: none;
+}
 .button a:hover {
     text-decoration: none;
     color: #FFFFFF;
