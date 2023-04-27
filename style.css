@@ -406,7 +406,7 @@ p {
     color: #FFFFFF;
     display: block;
     letter-spacing: 0.5vw;
-    font-size: 4vw;
+    font-size: 3.5vw;
     opacity: 1;
     transition: 0.3s;
 }
@@ -424,14 +424,14 @@ p {
     color: #FFFFFF;
     display: block;
     letter-spacing: 0.5vw;
-    font-size: 4vw;
+    font-size: 3.5vw;
     opacity: 1;
     transition: 0.3s;
 }
 
 .button2 {
     background-image: url(pawshake.png);
-    background-position: 80vw;
+    background-position: 77vw;
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.5;
@@ -442,7 +442,7 @@ p {
     color: #FFFFFF;
     display: block;
     letter-spacing: 0.5vw;
-    font-size: 4vw;
+    font-size: 3.5vw;
     opacity: 1;
     transition: 0.3s;
 }
