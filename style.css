@@ -396,7 +396,7 @@ p {
 
 .button {
     background-image: url(food1.png);
-    background-position: 65vw;
+    background-position: 55vw;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 4vw 4vw;
@@ -413,7 +413,7 @@ p {
 
 .button1 {
     background-image: url(pphome.png);
-    background-position: 70vw;
+    background-position: 65vw;
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.5;
@@ -431,7 +431,7 @@ p {
 
 .button2 {
     background-image: url(pawshake.png);
-    background-position: 80vw;
+    background-position: 77vw;
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.5;
