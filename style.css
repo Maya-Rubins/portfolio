@@ -140,7 +140,7 @@ body {
 .bottom {
     display: flex;
     width: 100%;
-    text-align: center;
+    text-align: left;
     flex-direction: column;
     opacity: 1;
     transition: 0.3s;
@@ -152,7 +152,7 @@ body {
 .bottom1 {
     display: flex;
     width: 100%;
-    text-align: center;
+    text-align: left;
     flex-direction: column;
     opacity: 1;
     transition: 0.3s;
@@ -164,7 +164,7 @@ body {
 .bottom2 {
     display: flex;
     width: 100%;
-    text-align: center;
+    text-align: left;
     flex-direction: column;
     opacity: 1;
     transition: 0.3s;
@@ -395,9 +395,9 @@ p {
 }
 
 .button {
-    background-image: url(cooking.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(food1.png);
+    background-position: 65vw;
+    background-size: contain;
     background-repeat: no-repeat;
     padding: 4vw 4vw;
     font-family: my_font_3;
@@ -412,9 +412,10 @@ p {
 }
 
 .button1 {
-    background-image: url(plants.jpg);
-    background-position: bottom;
-    background-size: cover;
+    background-image: url(pphome.png);
+    background-position: 70vw;
+    background-size: contain;
+    background-repeat: no-repeat;
     opacity: 0.5;
     padding: 4vw 4vw;
     font-family: my_font_3;
@@ -429,9 +430,10 @@ p {
 }
 
 .button2 {
-    background-image: url(happydog.jpg);
-    background-position: bottom;
-    background-size: cover;
+    background-image: url(pawshake.png);
+    background-position: 80vw;
+    background-size: contain;
+    background-repeat: no-repeat;
     opacity: 0.5;
     padding: 4vw 4vw;
     font-family: my_font_3;
