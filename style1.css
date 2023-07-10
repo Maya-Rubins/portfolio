@@ -7,4 +7,5 @@ body {
 a {
     color: ghostwhite;
     text-decoration: none;
+    display: block;
 }
