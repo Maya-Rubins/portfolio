@@ -4,46 +4,7 @@ body {
     font-family: my_font_3;
 }
 
-.top {
-    display: flex;
-    border-bottom: 1vw solid ghostwhite;
-}
-
-.top-left{
-    display: inline-flex;
-    width: 30%;
-}
-
-.top-right {
-    display: inline-flex;
-}
-
-.middle {
-    display: flex;
-    border-bottom: 1vw solid ghostwhite;
-}
-
-.middle-left {
-    display: inline-flex;
-    width: 30%;
-}
-
-.middle-right {
-    display: inline-flex;
-}
-
-.bottom {
-    display: flex;
-}
-
-.bottom-left {
-    display: inline-flex;
-    width: 30%;
-}
-.bottom-right {
-    display: inline-flex;
-}
-
-.h1 {
-    font-size: 10vw;
+a {
+    color: ghostwhite;
+    text-decoration: none;
 }
